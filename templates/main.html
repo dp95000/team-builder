@@ -8,6 +8,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Our Project Team</title>
     <style>
+        body {
+            background-image: url(../img/background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
         .page-top {
             background-color: red;
             color: #fff;
@@ -47,6 +53,14 @@
             margin: 0;
             padding: .5em;
         }
+
+        img.avatar {
+            max-width: 40px;
+            max-height: 40px;
+            color: #fff;
+            float: left;
+            margin-right: 10px;
+        }
         
     </style>
 </head> 
@@ -62,7 +76,7 @@
                 <div class="employee-card">
                     <div class="card-header">
                         <h3>Name</h3>
-                        <h3><i class="fas fa-coffee"></i>Manager</h3>
+                        <img class="avatar" alt="Manager" src="../img/mug-hot.svg"><h3>Manager</h3>
                     </div>
                     <div class="card-content">
                         <ul>
@@ -78,7 +92,7 @@
                 <div class="employee-card">
                     <div class="card-header">
                         <h3>Name</h3>
-                        <h3><i class="fas fa-glasses"></i> Engineer</h3>
+                        <img class="avatar" alt="Engineer" src="../img/glasses.svg"><h3>Engineer</h3>
                     </div>
                     <div class="card-content">
                         <ul>
@@ -94,8 +108,7 @@
                 <div class="employee-card">
                     <div class="card-header">
                         <h3>Name</h3>
-                        <i class="fas fa-mug-hot"></i>
-                        <h3> Intern</h3>
+                        <img class="avatar" alt="Intern" src="../img/user-graduate.svg"><h3>Intern</h3>
                     </div>
                     <div class="card-content">
                         <ul>

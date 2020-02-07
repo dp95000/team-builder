@@ -13,7 +13,7 @@ This will initialize the application, at which point the user will be prompted t
 
 Users will then be prompted to input additional information, depending on which role they choose.  If the user selects 'Manager', he/she will be prompted to enter an office number.  If the user selects 'Engineer', he/she will be asked to provide their Github username.  If the user selects 'Intern' he/she will be asked to enter the name of their school.
 
-Once all the needed informatino has been collected, an HTML file will be generated using the information that was provided.  The final result will be a page with organized cards displayed for each team member.
+Once all the needed informatinon has been collected, an HTML file will be generated using the information that was provided.  The final result will be a page with organized cards displayed for each team member.
 
 
 # Application Testing Instructions
